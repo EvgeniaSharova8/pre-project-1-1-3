@@ -9,7 +9,7 @@ public class Util {
     private static final String PASSWORD = "12345678";
 
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
